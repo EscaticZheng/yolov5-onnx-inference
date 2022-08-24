@@ -12,6 +12,6 @@ Onnxruntime-gpu==1.12.1
 # Usage
 1.Download my project zip or git clone.  
 2.Change the file name in **detect_onnx.py**.(e.g. 'best.onnx','test.png'...)  
-3.run **detect_onnx.py**
+3.run **detect_onnx.py**  
 4.Then look at the saved picture in your directory. 
 
