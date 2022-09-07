@@ -7,7 +7,7 @@ import numpy as np
 import time
 w = 'best.onnx'
 cuda = torch.cuda.is_available()
-providers = ['CUDAExecutionProvider', 'CPUExecutionProvider'] if cuda else ['CPUExecutionProvider']
+providers = ['CUDAExecutionProvider']
 session = onnxruntime.InferenceSession(w, providers=providers)
 #warmup to reduce the first inference time but useless in fact.
 # t1 = time.time()
