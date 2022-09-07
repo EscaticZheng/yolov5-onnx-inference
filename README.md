@@ -4,14 +4,15 @@ I removed the unused part in detect.py and added every useful fuction/class to o
 # Requirements
 **Note**:The package version depends on your computer.  
 For me:  
-Numpy==1.22.3   
-Opencv-python==4.5.5  
+numpy==1.22.3   
+opencv-python==4.5.5  
 torch==1.9.0+cu102  
 torchvision==0.10.0+cu102  
-Onnxruntime-gpu==1.12.1  
+onnxruntime-gpu==1.12.1  
+**If u use the cpu version, you can pip install torch, torchvision, and onnxruntime**  
 # Usage
 1.Download my project zip or git clone.  
-2.Change the file name in **detect_onnx.py**.(e.g. 'best.onnx','test.png','names=['nofall','fall']'...)  
-3.run **detect_onnx.py**  
-4.Then look at the saved picture in your directory. 
+2.Change the file name in **onnx_gpu_detect.py** or **onnx_cpu_detect.py**.(e.g. 'best.onnx','test.png','names=['nofall','fall']'...)  
+3.Run it, then look at the saved picture in your directory. 
+
 
